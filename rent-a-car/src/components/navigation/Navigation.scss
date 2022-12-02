@@ -1,0 +1,153 @@
+nav.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: center;  
+    letter-spacing: 0.05rem;
+    background: #234465;
+    padding: 0.8rem 1rem;
+    color: white;
+  }
+ .span{
+     margin-right: 10px;
+    font-size: 1.3rem;
+ }
+  .button-dashboard{
+      list-style: none;
+      text-decoration: none;
+      align-self: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+  }
+   nav > section.navbar-dashboard > form > input[type="text"],
+   nav > section.navbar-anonymous > ul > li:nth-child(1) > a,
+   nav > section.navbar-user > ul > li:nth-child(1),
+   nav > section.navbar-dashboard > ul > li:nth-child(1) > a{
+      margin-right: 0.5rem;
+  }
+  
+  
+  nav.navbar ul {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin: 0;
+  }
+  nav.navbar ul li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+  }
+  nav.navbar ul li a {
+    display: block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    background: cadetblue;
+    color: rgb(255, 255, 255);
+  }
+  .button:hover,
+  nav.navbar ul li a:hover,
+  nav.navbar ul li:hover > a {
+    background: lightsalmon;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .dashboard nav{
+      background: transparent;
+  }
+  .navbar-dashboard{
+      display: flex;
+      justify-content: space-between;    
+      width: 100vw;
+     
+  }
+  .navbar .first-bar{
+      display: flex;
+      align-items: center;
+  }
+  .navbar .first-bar a{
+      color: white;
+      margin-right: 0.5rem;
+  }
+  .navbar .first-bar input{  
+      margin-right: 0.5rem;
+  }
+  nav > section > div.first-bar > a:nth-child(1){
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+  .navbar .first-bar form{
+      display: flex;
+      align-items: center;
+  }
+  .navbar .second-bar ul{
+      display: flex;
+      align-items: center;
+  }
+  .navbar .second-bar ul li{
+      margin-right: 0.5rem;
+  }
+  .navbar-anonymous ul{
+      display: flex;
+  }
+
+  html {
+	font: 12px/1.5 "PT Sans", "PT Serif Caption", "PT Serif";	
+}
+
+@media screen and (min-width: 500px) {
+	html { 
+		font-size: 14px;
+	 }
+}
+
+@media screen and (min-width: 700px) {
+	html { 
+		font-size: 16px;
+	 }
+}
+
+@media screen and (min-width: 1600px) {
+	html { 
+		font-size: 18px;
+	 }
+}
+
+body, table, th, td, form, input, textarea, option, select {
+	font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;	
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 2.0rem; }
+h3 { font-size: 1.8rem; }
+h4 { font-size: 1.6rem; }
+h5 { font-size: 1.4rem; }
+h6 { font-size: 1.2rem; }
+
+ul, ol {
+	padding-bottom: 1.5em;
+}
+
+ul, ol {
+	padding-left: 2em;
+}
+
+li {
+	list-style-position: inside;
+}
+blockquote {
+	width: 80%;
+	margin: 0 auto;
+	border-left: 4px solid #DDD;
+	font-style: italic;	
+	padding: 1rem 2rem;
+	position: relative;
+}

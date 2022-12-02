@@ -1,0 +1,72 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Test Testov",
+      "phone": "0887180702",
+      "email": "test@gmail.com",
+      "username": "test",
+      "password": "asd"
+    },
+    {
+      "fullName": "Temenuzhka",
+      "phone": "0887180702",
+      "email": "temenujka_211@abv.bg",
+      "username": "temenuzhka",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fullName": "Pesho",
+      "phone": "089333256",
+      "email": "pesho@gmail.com",
+      "username": "pesho",
+      "password": "12345678",
+      "id": 3
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "brand": "Ford",
+      "model": "Fiesta",
+      "year": 2010,
+      "fuelType": "Diesel",
+      "numberOfSeats": 3,
+      "picture": "https://bit.ly/3EICSRm",
+      "pricePerDay": 51,
+      "count": -1,
+      "type": "economy"
+    },
+    {
+      "model": "Agila",
+      "brand": "Opel",
+      "picture": "https://prod.pictures.autoscout24.net/listing-images/6d35cb18-6c57-4474-9790-7658c7f22faf_d946b348-8f90-4539-9fe1-5a86ac3eb591.jpg/250x188.webp",
+      "year": 2001,
+      "fuelType": "Petrol",
+      "numberOfSeats": 4,
+      "pricePerDay": 12,
+      "count": 10,
+      "type": "cargo",
+      "id": 2
+    }
+  ],
+  "rentalEvents": [
+    {
+      "vehicleId": "1",
+      "customerId": 3,
+      "startDate": "2022-11-14",
+      "endDate": "2022-11-24",
+      "discount": 7,
+      "id": 2
+    },
+    {
+      "vehicleId": "1",
+      "customerId": 1,
+      "startDate": "2022-12-15",
+      "endDate": "2022-12-16",
+      "discount": 0,
+      "id": 3
+    }
+  ]
+}
